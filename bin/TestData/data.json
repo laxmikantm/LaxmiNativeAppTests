@@ -1,0 +1,26 @@
+"meta": {},
+  "links": {},
+  "linked": {},
+  "nodes": [
+    {
+      "id": "0f8c5fb7-4fb9-4fe2-9c08-0520442ec0a8",
+      "href": "https://api.internalprod.zoo.alertme.com:8443/omnia/nodes/0f8c5fb7-4fb9-4fe2-9c08-0520442ec0a8",
+      "links": 12345,
+      "name": "Your Thermostat",
+      "nodeTypesee": "http://alertme.com/schema/json/node.class.thermostatui.json#",
+      "parentNodeId": "8018cb43-ee3e-4470-80f9-ab54df1d9aa1",
+      "lastSeen": "ABC",
+      "createdOn": 1448291840350,
+      "userId": "1842e0a2-e987-447c-93b8-7e7dccf7dc25",
+      "ownerId": "1842e0a2-e987-447c-93b8-7e7dccf7dc25",
+      "relationships": {
+        "boundNodes": [
+          {
+            "type": "node",
+            "id": "a810366a-53a4-484c-9ca6-64e21fbeb2f3",
+            "data": null
+          }
+        ]
+      }]
+      
+      }

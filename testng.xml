@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Tests" verbose="3" parallel="tests">
+	<listeners>
+		<listener class-name="com.seleniumtests.Listners.RetryListener" />
+	</listeners>
+
+	<listeners>
+		<listener class-name="com.seleniumtests.test.WebDriverExcercise" />
+	</listeners>
+
+ <test name="Test for Native App">
+		<parameter name="browser" value="Native"></parameter>
+		<classes>
+			<class name="com.seleniumtests.test.WebDriverExcercise" />
+		</classes>
+	</test>
+
+<!-- 	 <test name="Test in Chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.seleniumtests.test.WebDriverExcercise" />
+		</classes>
+	</test>
+	
+	<test name="Test on Browserstack">
+	<parameter name="browser" value="Cloud"></parameter>
+		<classes>
+			<class name="com.seleniumtests.test.WebDriverExcercise" />
+		</classes>
+	</test> -->
+</suite>
