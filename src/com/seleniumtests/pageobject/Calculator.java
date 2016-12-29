@@ -1,15 +1,12 @@
 package com.seleniumtests.pageobject;
 
-import cucumber.api.java.cs.A;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.FindBy;
+
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
 /**
  * Created by laxmi.somni on 26/12/2016.
@@ -59,12 +56,8 @@ public class Calculator extends BasePage {
     private MobileElement result;
 
     public Calculator(AppiumDriver appiumDriver) {
-        loggerPageObjectLevel.debug("TESTS");
-        loggerPageObjectLevel.info("Browser Opened");
         this.appiumDriver = appiumDriver;
         PageFactory.initElements(new AppiumFieldDecorator(appiumDriver), this);
-        loggerPageObjectLevel.debug("TESTS");
-        loggerPageObjectLevel.info("Browser Opened");
     }
 
 

@@ -82,7 +82,7 @@ public class SelTestCase {
 			capabilities.setCapability("appium-version", "1.0");
 			capabilities.setCapability("platformName", "Android");
 			capabilities.setCapability("platformVersion", "6.0.1");
-			capabilities.setCapability("deviceName", "ZY223GS7ZP");
+//			capabilities.setCapability("deviceName", "ZY223GS7ZP");
 			capabilities.setCapability("appPackage", "com.google.android.calculator");
 			capabilities.setCapability("appActivity", "com.android.calculator2.AndroidCalculator");
 			appiumDriver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
@@ -96,7 +96,7 @@ public class SelTestCase {
 			capabilities.setCapability("platformName", "Android");
 			capabilities.setCapability("platformVersion", "6.0.1");
 			capabilities.setCapability("appiumVersion", "1.6.3");
-//			capabilities.setCapability("deviceName", "ZY223GS7ZP");
+//			capabilities.setCapability("deviceName", "<Add your device or Emulator name>");
 			capabilities.setCapability("appPackage", "com.google.android.calculator");
 			capabilities.setCapability("appActivity", "com.android.calculator2.AndroidCalculator");
 			appiumDriver = new AndroidDriver<WebElement> (new URL(sauce_URL), capabilities);

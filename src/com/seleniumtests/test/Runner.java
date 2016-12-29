@@ -26,7 +26,7 @@ import java.util.Map;
 		features = {"src/com/seleniumtests/resources"}
 		,format ={"pretty", "html:target/cucumber-html-report"}
 		,glue={"com.seleniumtests.test"}
-		,tags = {"@iOScalci"}
+		,tags = {"@Androidcalci"}
 
 		)
 public class Runner {
